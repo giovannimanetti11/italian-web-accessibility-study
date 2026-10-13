@@ -1,14 +1,14 @@
-# Italian Web Accessibility Study (IWASS)
+# Italian Web Accessibility Study (IWAS)
 
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](pyproject.toml)
 
-IWASS measures accessibility problems that can be detected automatically on popular Italian websites. The completed October 2026 study covers **10,022 `.it` domains** and **34,641 successfully evaluated pages**, using Chromium, Playwright and axe-core.
+IWAS measures accessibility problems that can be detected automatically on popular Italian websites. The completed October 2026 study covers **10,022 `.it` domains** and **34,641 successfully evaluated pages**, using Chromium, Playwright and axe-core.
 
 **Paper:** Giovanni Manetti, *Italian Web Accessibility 2026: An Observational Analysis of 10,022 Domains and 34,641 Web Pages*. PerseoDesign Research. DOI: [10.5281/zenodo.23347092](https://doi.org/10.5281/zenodo.23347092).
 
-**Dataset:** *Italian Web Accessibility Study (IWASS): Automated WCAG Barrier Measurement Dataset for 10,022 Italian Domains*. DOI reserved: [10.5281/zenodo.23346985](https://doi.org/10.5281/zenodo.23346985). The public dataset deposit is separate from this source repository; check the Zenodo record for its publication status.
+**Dataset:** *Italian Web Accessibility Study (IWAS): Automated WCAG Barrier Measurement Dataset for 10,022 Italian Domains*. DOI reserved: [10.5281/zenodo.23346985](https://doi.org/10.5281/zenodo.23346985). The public dataset deposit is separate from this source repository; check the Zenodo record for its publication status.
 
 ---
 
@@ -146,6 +146,15 @@ The dataset and paper have **separate DOIs**. The data are intended for independ
 
 **Release status:** the complete run is archived and the Zenodo dataset record is being prepared. An 88-row stratified manual review and one page-manifest anomaly still require final disposition; these items are described in the study report and must not be concealed at publication. Check the Zenodo record for the released dataset version and availability.
 
+## Naming correction
+
+The correct project acronym is **IWAS (Italian Web Accessibility Study)**. The
+original October 2026 Zenodo dataset submission and some frozen acquisition
+artifacts use the earlier acronym “IWASS”. Both paper and dataset retain their
+original DOI identifiers. For reproducibility, the Python package name,
+historical run identifiers and the frozen protocol have **not** been rewritten.
+This README uses the corrected public-facing name.
+
 ## Methodology and ethics
 
 The scanner only visits public webpages through normal browser navigation; it does not authenticate, submit forms, attempt exploitation or bypass anti-bot controls. Only publicly available destinations are evaluated. Addresses in private and link-local networks are blocked within the isolated runtime.
@@ -162,7 +171,7 @@ For the scientific findings, cite the paper:
 
 For a secondary analysis of the dataset, cite its own DOI once the dataset is published:
 
-> Manetti, G. (2026). *Italian Web Accessibility Study (IWASS): Automated WCAG Barrier Measurement Dataset for 10,022 Italian Domains*. https://doi.org/10.5281/zenodo.23346985
+> Manetti, G. (2026). *Italian Web Accessibility Study (IWAS): Automated WCAG Barrier Measurement Dataset for 10,022 Italian Domains*. https://doi.org/10.5281/zenodo.23346985
 
 Machine-readable citation metadata are in [CITATION.cff](CITATION.cff).
 

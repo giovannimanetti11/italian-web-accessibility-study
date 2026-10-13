@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Cite the scientific paper for findings; cite the dataset DOI when reusing observations."
-title: "Italian Web Accessibility Study (IWASS)"
+title: "Italian Web Accessibility Study (IWAS)"
 type: software
 authors:
   - family-names: "Manetti"

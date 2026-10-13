@@ -1,0 +1,14 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The CC BY 4.0 license applies to dataset files released under dataset/exports/
+and to the separately deposited IWASS Zenodo dataset, subject to the exact
+license declared on the corresponding release record.
+
+At this initial source release, dataset/exports/ contains no observation
+files. Code and tests are licensed separately under MIT (LICENSE).
+
+Attribution: Giovanni Manetti, PerseoDesign Research.
+You may share and adapt the data, including commercially, if you give
+appropriate credit, link the license and indicate changes.
+
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode

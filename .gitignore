@@ -1,0 +1,22 @@
+# No raw domain frames, browser outputs, or run records in this repository.
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.log
+*.sqlite
+*.db
+*.zip
+*.tar.gz
+releases/
+runs/*
+!runs/.gitkeep
+data/input/*
+!data/input/.gitkeep
+dataset/exports/*
+!dataset/exports/.gitkeep

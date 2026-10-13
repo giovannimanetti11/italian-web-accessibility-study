@@ -1,0 +1,13 @@
+.git
+.venv
+.pytest_cache
+.ruff_cache
+runs
+data
+tests
+__pycache__
+*.pyc
+node_modules
+!node_modules/axe-core
+!node_modules/axe-core/package.json
+!node_modules/axe-core/axe.min.js

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Cite the scientific paper for findings; cite the dataset DOI when reusing observations."
+title: "Italian Web Accessibility Study (IWASS)"
+type: software
+authors:
+  - family-names: "Manetti"
+    given-names: "Giovanni"
+    email: "giovanni@perseodesign.com"
+repository-code: "https://github.com/giovannimanetti11/italian-web-accessibility-study"
+abstract: >
+  Reproducible Playwright and axe-core acquisition pipeline for an
+  observational assessment of automatically detectable WCAG A/AA
+  accessibility barriers on a fixed cohort of 10,022 Italian .it domains.
+keywords:
+  - web accessibility
+  - WCAG
+  - axe-core
+  - Italy
+  - Tranco
+  - automated testing
+license: MIT
+version: 0.1.0
+date-released: "2026-10-13"
+preferred-citation:
+  type: generic
+  title: "Italian Web Accessibility 2026: An Observational Analysis of 10,022 Domains and 34,641 Web Pages"
+  authors:
+    - family-names: "Manetti"
+      given-names: "Giovanni"
+  year: 2026
+  doi: "10.5281/zenodo.23347092"
+  notes: "PerseoDesign Research preprint; DOI reserved before publication."

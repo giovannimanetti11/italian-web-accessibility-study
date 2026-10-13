@@ -1,0 +1,20 @@
+name: Tests and lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.28"
+      - name: Install Python and development dependencies
+        run: uv sync --frozen --dev --python 3.13
+      - name: Run tests
+        run: uv run --frozen python -m pytest -q
+      - name: Lint
+        run: uv run --frozen ruff check .

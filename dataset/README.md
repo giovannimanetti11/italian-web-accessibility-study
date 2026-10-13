@@ -1,4 +1,4 @@
-# IWASS dataset
+# IWAS dataset
 
 The public dataset is deposited separately from this codebase on Zenodo.
 
@@ -28,6 +28,13 @@ sampling anomaly require final disposition before the deposited data can be
 described as validated. Files in exports/ will be published only as part of
 a separately documented dataset release. Do not treat the existence of a
 reserved DOI as proof of publication.
+
+## Dataset naming
+
+**IWAS** is the correct project acronym. The initial Zenodo dataset record
+uses “IWASS”, an editorial error retained in original deposited material;
+the DOI is unchanged. The software's original module names are preserved
+for reproducibility.
 
 ## Identifiers
 
